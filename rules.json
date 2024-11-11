@@ -6,10 +6,14 @@
       "type": "block"
     },
     "condition": {
-      "domains": [
+      "initiatorDomains": [
         "ldoceonline.com"
       ],
-      "domainType": "thirdParty"
+      "domainType": "thirdParty",
+      "excludedRequestDomains": [
+        "googleapis.com",
+        "gstatic.com"
+      ]
     }
   }
 ]
